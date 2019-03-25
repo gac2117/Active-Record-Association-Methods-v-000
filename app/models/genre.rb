@@ -15,6 +15,5 @@ class Genre < ActiveRecord::Base
     self.artists do |a|
       a.name >> artist_array
     end
-    artist_array
   end
 end
