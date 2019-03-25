@@ -6,7 +6,7 @@ class Song < ActiveRecord::Base
     self.genre.name
   end
 
-  def drake_made_this
-    self.artist = "Drake" # when this method is called it should assign the song's artist to Drake
+  def drake_made_this # when this method is called it should assign the song's artist to Drake
+    self.artist = "Drake" 
   end
 end
